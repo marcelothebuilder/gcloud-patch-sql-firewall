@@ -1,0 +1,71 @@
+repo_name: marcelothebuilder/gcloud-patch-sql-firewall
+report_id: 16abcaa71e522b1ff702455732ad6c8f
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:37:05+00:00'
+requested_by: marcelothebuilder
+provider: github
+branch: main
+detected_tools_count: 5
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/marcelothebuilder/gcloud-patch-sql-firewall
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/marcelothebuilder/gcloud-patch-sql-firewall
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/marcelothebuilder/gcloud-patch-sql-firewall/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Marcelo
+  last_updated_on: 2023-02-12 02:24:36.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/marcelothebuilder/gcloud-patch-sql-firewall/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Marcelo
+  last_updated_on: 2023-02-12 02:24:36.000000000 Z
+- name: minimist
+  description: Parse argument options
+  package_url: https://www.npmjs.com/minimist
+  version: 1.2.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15918/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/marcelothebuilder/gcloud-patch-sql-firewall/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Marcelo
+  last_updated_on: 2023-02-12 02:24:36.000000000 Z
