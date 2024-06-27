@@ -13,7 +13,7 @@
 ## Prerequisites
 
 * Google Cloud CLI
-* Node 16
+* Node 18
 
 ## Install
 

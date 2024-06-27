@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 
-const axios = require('axios');
-const promisify = require('util').promisify;
-const exec = require('child_process').exec;
-const publicIpv4 = require('public-ip').v4;
-const _hostname = require('os').hostname;
-const { getMandatoryArg, getOptionalArg } = require('./argv.js');
+import axios from 'axios';
+import { promisify } from 'util';
+import { exec } from 'child_process';
+import { v4 as publicIpv4 } from 'public-ip';
+import { hostname as _hostname } from 'os';
+import { getMandatoryArg, getOptionalArg } from './argv.js';
 
 const execAsync = promisify(exec);
 

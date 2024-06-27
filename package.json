@@ -1,13 +1,17 @@
 {
   "name": "gcloud-patch-sql-firewall",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "src/index.js",
+  "type": "module",
   "bin": {
     "gcloud-patch-sql-firewall": "src/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "author": "Marcelo Paixão Resende",
   "license": "GPL",

@@ -1,4 +1,4 @@
-const minimist = require('minimist');
+import minimist from 'minimist';
 const argv = minimist(process.argv.slice(2));
 
 function getMandatoryArg(value) {
@@ -18,7 +18,7 @@ function getOptionalArg(value, defaultValue) {
     return argv[value];
 }
 
-module.exports = {
+export {
     getMandatoryArg,
     getOptionalArg
 };
